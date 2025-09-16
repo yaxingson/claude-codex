@@ -1,0 +1,25 @@
+{
+  "name": "claude-codex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "ccx": "./cli/index.js"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "yaxingson <3228891558@qq.com>",
+  "license": "MIT",
+  "packageManager": "pnpm@10.14.0",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^20.19.15",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
